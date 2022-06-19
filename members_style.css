@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    color: white
+}
+
+.page_center{
+    position: absolute;
+    top: 45%;   /* change!! */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* .row {
+    float: bottom;
+} */
+
+/* .number-card {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%)
+} */
+
+.number-card {
+    height: 50%;
+    line-height: 50%;
+    right: 50%;
+    text-align: center;
+    font-size: 500%
+    /* border: 2px dashed #f69c55; */
+}
+
+.column {
+    float: left;
+    width: 32%;
+    /* position: absolute; */
+    /* margin-bottom: 16px; */
+    padding: 0 8px;
+    /* left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%) */
+    height: 600px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 blue;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.topnav {
+    color: white;
+    /* background-color: gray; */
+    position: relative;
+    /* height: 50px;
+    line-height: 50px; */
+    /* padding: 10px 20px; */
+    /* font-size: 25px; */
+    /* font-size: 20px; */
+    display: inline-block;
+}
+
+.topnav > * {
+    float: left;
+    /* padding: 0px 20px; */
+}
+
+.topnav p {
+    /* position: relative; */
+    /* display: box; */
+    font-size: 20px;
+    margin: 0;
+    /* text-align: center; */
+    /* height: 50%; */
+    /* top:100px; */
+    padding: 0px 20px;
+    height: 50px;
+    line-height: 50px;
+    /* vertical-align: middle;
+    align-content: center;
+    justify-content: center;
+    box-align: center;
+    flex-direction: row; */
+    /* line-height: 150px; */
+}
+
+button.topnav {
+    background-color: blue;
+    color:white;
+    border: none;
+    /* padding: 10px 20px; */
+    padding: 0px 20px;
+    font-size: 25px;
+    /* padding: 100px 20px; */
+    font-size: 25px;
+    height: 50px;
+    /* line-height: 50px; */
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: midnightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    backdrop-filter: brightness(0.50);
+    filter: brightness(0.85);
+    /* text-decoration: underline; */
+}
