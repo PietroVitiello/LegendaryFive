@@ -25,24 +25,38 @@ body {
 } */
 
 .number-card {
+    /* background-color: red; */
     height: 50%;
     line-height: 50%;
     right: 50%;
     text-align: center;
-    font-size: 500%
+    font-size: 500%;
+    /* vertical-align: middle; */
     /* border: 2px dashed #f69c55; */
 }
 
+/* .number-card p{ */
+    /* height: 100%; */
+    /* position: relative; */
+    /* line-height: 50%; */
+    /* right: 50%; */
+    /* text-align: center; */
+    /* font-size: 500%; */
+    /* vertical-align: middle; */
+    /* border: 2px dashed #f69c55; */
+/* }  */
+
 .column {
+    /* background-color: green; */
     float: left;
     width: 32%;
     /* position: absolute; */
     /* margin-bottom: 16px; */
-    padding: 0 8px;
-    /* left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%) */
-    height: 600px;
+    /* padding: 0 8px; */
+    /* left: 50%; */
+    /* right: 50%; */
+    /* transform: translate(-50%, -50%); */
+    height: 500px;
 }
 
 .card {

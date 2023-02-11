@@ -21,10 +21,11 @@
 
 const express = require('express');
 const server = express();
+var path = require('path')
 
 server.use(express.static(__dirname));
-server.get('/', function(request, response){
-    response.sendFile('/home/pita/Documents/PersonalProjects/LegendaryFive/index.html');
+server.get('/', function(req, res){
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 server.listen(5000); //3 - listen for any incoming requests
